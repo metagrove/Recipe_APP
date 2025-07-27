@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -2px;
+    font-family: "Poppins", sans-serif; 
+    color: #212529;
+}
+
+.container{
+    max-width:1200px;
+    margin: 0 auto;
+}
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 38px;
+}
+
+h4{
+    font-size: 38px;
+}
+h5{
+    font-size: 24px;
+}
+
+.orange-text{
+    margin-bottom: 20px;
+}
+span{
+    display: inline-block;
+}
+
+.main-heading-title{
+    margin-bottom: 10px;
+}
+
+.main-heading-paragraph{
+    margin-bottom: 50px;
+}
+
+.nav-bar{
+    margin-bottom: 200px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.nav-button-container-heading{
+    justify-content: center;
+    display:flex;
+    gap:2rem;
+    align-items: center;
+}
+
+p,a,.small-text{
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #495057;
+    text-decoration: none;
+}
+p{
+    font-size: 20px;
+}
+
+a{
+    font-size: 16px;
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+.small-text{
+    font-size: 12px;
+}
+
+.btn{
+    font-size: 20px;
+    text-decoration: none;
+    padding:15px 25px;
+    border-radius: 9px;
+    
+}
+
+.btn-primary:link, .btn-primary:visited{
+    color: #ffffff;
+    background-color:#339af0
+}
+
+.btn-primary:hover, .btn-primary:active{
+    color: #ffffff;
+    background-color:#276296;
+} 
+
+.btn-secondary:link, .btn-secondary:visited{
+    color: #ffffff;
+    background-color:#9775fa;
+    border: 2px solid #9775fa;
+}
+
+.btn-secondary:hover, .btn-secondary:active{
+    color: #ffffff;
+    background-color:#7048e8;
+    
+}
+.btn-primary-outline:link, .btn-primary-outline:visited{
+    color: #339af0;
+    background-color: #ffffff;
+    border: 2px solid #339af0;
+}
+.btn-primary-outline:hover, .btn-primary-outline:active{
+    color: #ffffff;
+    background-color: #339af0;
+    border: 2px solid #339af0;
+}
+
+
+
+.main-heading{
+    text-align: center;
+    margin-bottom: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* .cta-section{
+    text-align: center;
+    margin-bottom: 300px;
+    margin-right: 600px;
+}    */
+
+.cta-section{
+    
+    margin-bottom: 300px;
+    
+} 
+.cta-heading{
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+
+.nav-button-container{
+    display:flex;
+    gap:2rem;
+}
+
+/* .features-main-heading{
+    text-align: center;
+    margin-bottom: 80px;
+
+} */
+
+.features-main-heading{
+    
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.feature-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    row-gap: 100px;
+    column-gap: 300px;
+    justify-content: center;
+    align-items: center;
+} 
+
+.feature-img-swap{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.feature-img-swap-2{
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+.features-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+.feature-img{
+    max-width: 400px;
+    width: 100%;
+    
+}
+.highlight{
+    color:#ffffff;
+    padding: 5px 10px; 
+    border-radius: 5px;
+}
+
+.highlight-primary{
+    /* background-color: #339af0; */
+    background-color: #9775fa;;
+}
+.highlight-secondary{
+    background-color: #9775fa;
+}
+.highlight-tertiary{
+    background-color: #ff6f20;
+}
+
+.cta-card{
+    background-color: #339af0;
+    text-align: center;
+    max-width: 1000px;
+    padding: 100px 200px;
+    border-radius: 20px;
+    margin:0 auto;
+}
+.header{
+    height: 100vh;
+}
+.feature-img{
+    width: 400px;
+}
+.logo-md{
+    width: 100px;
+}
+.logo-sm{
+    width: 80px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px
+    
+}
+.social-icon-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.footer-nav{
+    display: flex;
+    gap: 10px;
+}   
+.social-icon{
+    width: 20px;
+}

@@ -1,0 +1,20 @@
+.main-container{
+    height:500px;
+    background-color: rgb(153, 161, 231);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container{
+    width:300px;
+    display :flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+    gap:20px;
+    align-items: center;
+    padding: 2px;
+}

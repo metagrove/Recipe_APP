@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="submit-form.css">
+    <title>FORM</title>
+</head>
+<body>
+    <h3>REGISTER YOUR DETAILS</h3>
+    <p>Fill in the form below to register your details.</p>
+
+<!-- forms -->
+    <form action="/api/v" method="post">
+
+<!-- Lable and inputs and  validation-->
+        <label for="name">Name:</label>
+        <input type="text" name="name" placeholder="Name" minlength="3">
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Email" required>
+
+        <!-- dropdown -->
+        <label for="Category">Category :</label>
+        <select name="dropdown" id="Category">
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+            <option value="3">Option 3</option>
+        </select>
+
+        <!-- radio -->
+        <input type="radio" name="Chennai" value="c">
+        <label for="Chennai">Chennai</label>
+
+        <input type ="radio" name="Delhi" value="d">
+        <label for="Delhi">Delhi</label>
+        <label for="description">Description:</label>
+        <textarea name="Entry" id="description" rows="5" cols="30"></textarea>
+
+        <!-- text area -->
+        <input type ="checkbox" name="Remember me">
+        <label for="Remember me">Remember me</label>
+<!-- button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
